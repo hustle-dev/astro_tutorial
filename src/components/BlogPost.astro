@@ -1,0 +1,9 @@
+---
+import { AstroComponentInstance } from "astro/dist/runtime/server";
+
+const { url, title } = Astro.props;
+---
+
+<li>
+  <a href={url}>{title}</a>
+</li>
